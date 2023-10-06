@@ -1,0 +1,255 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+    * {
+        color: white;
+        font-family: 'Inter', sans-serif;
+        box-sizing: border-box;
+    }
+
+    .header {
+        position: relative;
+        width: 100%;
+        background: #080328;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #3E3D3D;
+        padding: 10px;
+        color: white;
+        text-decoration: bold;
+    }
+    
+    .footer-links {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .footer-links p {
+        margin: 0;
+    }
+    
+    .footer a {
+        color: white;
+        text-decoration: bold;
+    }    
+
+    .navbar {
+        background: #080328;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .navbar-nav .active a {
+        background-color: #080328;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .navbar-nav a:hover {
+        background-color: #3E3D3D;
+        font-weight: bold;
+        color: #080328;
+    }
+
+    .navbar a {
+        color: white;
+    }
+
+    .aboutme {
+        background-color: #3E3D3D;
+        height: 95vh;
+        display: flex;
+        align-items: center;
+        padding: 0 10%;
+        margin: 0;
+    }
+
+    .aboutcontent {
+        max-width: 600px;
+    }
+
+    .aboutcontent h1 {
+        font-size: 3.3rem;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .experience {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    
+    .date {
+        font-size: 1rem;
+
+    }
+
+    .aboutcontent h2 {
+        font-size: 4rem;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    .aboutcontent .title {
+        font-size: 4rem;
+        font-weight: 700;
+        color: #5B9DD9;
+        text-decoration: underline;
+        line-height: 0.7;
+    }    
+
+    .aboutcontent p {
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    .images {
+        padding-left: 25%;
+        float: right;
+        width: 45%;
+        height: 500px;
+        background-image: url('images/nadja-memoji.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .images:hover {
+        background-image: url('images/nadja-memoji2.png');
+    }
+
+    .col {
+        float: left;
+        padding: 10px;
+    }
+
+    .left {
+        width: 25%;
+    }
+
+    .right {
+        width: 75%;
+    }
+
+    .half {
+        width: 50%
+    }
+
+    .background,
+    .contactme {
+        background: #080328;
+        font-family: 'Inter', sans-serif;
+        color: white;
+        padding: 0 10%;
+    }
+
+    .background:after {
+        background: #080328;
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .col h1 {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .col h2 {
+        font-size: 2.1rem;
+        font-weight: 600;
+    }
+
+    .col p {
+        font-size: 2rem;
+        font-weight: 300;
+        margin-top: 11px;
+    }
+
+    .email-link {
+        color: inherit;
+        text-decoration: underline;
+        transition: color 0.3s;
+        color: #5B9DD9;
+    }
+
+    .cv h1 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    .cv h2 {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .cv p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        font-style: italic;
+        margin-top: 5px;
+    }
+
+    .contactme {
+        font-family: 'Inter', sans-serif;
+        color: #000000;
+        padding: 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 90%;
+        max-width: 600px;
+        border-radius: 10px;
+    }
+
+    form h1 {
+        color: #ffffff;
+        font-weight: 800;
+        margin-bottom: 20px;
+        text-decoration: bold;
+    }
+
+    form input,
+    form textarea {
+        border: 0;
+        margin: 10px 0;
+        padding: 20px;
+        outline: none;
+        color: black;
+        background: #ffffff;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    form button {
+        padding: 15px;
+        background: #080328;
+        color: #ffffff;
+        font-size: 18px;
+        border: 2;
+        outline: none;
+        cursor: pointer;
+        border-color: #ffffff;
+    }
+
+    .header2 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .header2 h1 {
+        margin-right: 10px;
+    }
+    
+    .header2 img {
+        max-height: 35px;
+    }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadja Donosepoetro</title>
+    <link rel="icon" type="image/x-icon" href="/images/nadja-memoji.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+          <div class="navbar-header">
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://nadja-d.notion.site/nadja-d/Technology-Portfolio-42e248b09db545debea282c5948381fe">Portfolio</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li class="active"><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section class="contactme">
+        <form>
+            <h1>Contact Me</h1>
+            <input type="text" id="fname" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="text" id="phone" placeholder="Phone Number" required>
+            <textarea id="message" rows="3" placeholder="How can I help?" required></textarea>
+            <button onclick="submitForm()">Submit</button>
+        </form>
+    </section>
+
+    <section class="footer">
+        <p>DESIGNED AND DEV. BY NADJA DONOSEPOETRO</p>
+        <div class="footer-links">
+            <p><a href="mailto:nadja.donosepoetro@gmail.com">EMAIL</a></p>
+            <p><a href="https://github.com/nadja-d">GITHUB</a></p>
+            <p><a href="https://www.linkedin.com/in/nadjadonosepoetro/">LINKEDIN</a></p>
+        </div>
+    </section>
+    
+    <script>
+        function submitForm() {
+            alert("Thank you " + document.getElementById("fname").value + " for filling in the form. "
+            + "We will contact you via email at " + document.getElementById("email").value) + "!";
+        }
+    </script>
+    
+</body>
+</html>
